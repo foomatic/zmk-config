@@ -1,0 +1,13 @@
+file_format: "1"
+id: redox
+name: Redox
+type: shield
+url: https://github.com/mattdibi/redox-keyboard
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - redox_left
+  - redox_right
